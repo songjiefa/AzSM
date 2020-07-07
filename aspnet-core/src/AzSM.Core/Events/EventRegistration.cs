@@ -16,7 +16,7 @@ namespace AzSM.Events
 	{
         public int TenantId { get; set; }
 
-        [ForeignKey("EventId")]
+        //[ForeignKey("EventId")]
         public virtual Event Event { get; protected set; }
         public virtual Guid EventId { get; protected set; }
 
